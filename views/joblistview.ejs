@@ -1,0 +1,21 @@
+<div id="listOfJobs" style="display: flex; flex-direction: row;flex-wrap: wrap; justify-content: space-around; margin-top: 4%;">
+<% jobs.forEach((job)=>{ %>
+    <div class="card" style="width: 18rem; margin-top: 3%;">
+        
+        <div class="card-body">
+          <h3 class="card-text"><%= job.company %></h3>
+          <p class="card-text"><%= job.role %></p>
+          <ul type="none">
+            <li><%=job.location %></li>
+            <li><%=job.salary %></li>
+          </ul>
+          <div>
+          <% job.skills.forEach((skill)=>{%>
+            <button style="margin-left: 1%;margin-top: 0.5%;"><%=skill %></button>
+        <% })%>
+    </div>
+          <button type="button" class="btn btn-primary" style="margin-top: 4%;"> <a href="/jobs/<%=job.id%>" style="text-decoration: none; color: white;" >View Details</a></button>
+        </div>
+      </div>
+<% }) %>
+</div>
