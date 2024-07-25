@@ -35,8 +35,20 @@ The internal in-house database is maintained. Recruiter can create new job, dele
 ![image](https://github.com/user-attachments/assets/d0c28a5a-ad6b-4a97-9a49-cce086151390)
 
 **Post a new job**
+![image](https://github.com/user-attachments/assets/6a244113-e798-4273-9c00-4e5d626e1644)
+
+**Edit Job Details**
+![image](https://github.com/user-attachments/assets/03e9fbec-c301-4ba1-a63d-2f213558ceb4)
+
+**List of students applied for Job**
+Resume also can be downloaded.
+
+![image](https://github.com/user-attachments/assets/2cd6a30b-a834-4734-b450-f1e230e91e96)
 
 
+## Setup
 
-
-
+- Clone repository to your system
+- Set appropriate environment variables
+- run npm i
+- run server.js file to start the application
