@@ -31,7 +31,10 @@ The internal in-house database is maintained. Recruiter can create new job, dele
 **SignIn as recruiter or register as recruiter**
 ![image](https://github.com/user-attachments/assets/fad806e2-c76c-4c13-a1df-f5c62d4b9124)
 
-**When registration completes 
+**Only the person who posted the job can edit the job**
+![image](https://github.com/user-attachments/assets/d0c28a5a-ad6b-4a97-9a49-cce086151390)
+
+**Post a new job**
 
 
 
